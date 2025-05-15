@@ -56,8 +56,8 @@ def receive_email():
 
 # Test function with hardcoded values
 def test_receive_email():
-    email_entry.insert(0, "marlymaged61@yahoo.com")
-    password_entry.insert(0, "nlcrvnrfjtyogwmn")  # Use a test password
+    email_entry.insert(0, "")
+    password_entry.insert(0, "")  # Use a test password
     receive_email()  # Call the receive function
 
 
