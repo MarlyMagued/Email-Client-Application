@@ -37,9 +37,9 @@ def send_email():
 
 # Test function with hardcoded values
 def test_send_email():
-    sender_email_entry.insert(0, "marlymaged3@gmail.com")
-    password_entry.insert(0, "acmc wsdr evoa zbcl")  
-    recipient_email_entry.insert(0, "marlymaged61@yahoo.com")
+    sender_email_entry.insert(0, "") #insert your email
+    password_entry.insert(0, "")  #insert your password
+    recipient_email_entry.insert(0, "") #insert the recepient email
     subject_entry.insert(0, "Test Email")
     body_entry.insert("1.0", "This is a test email.")
 
